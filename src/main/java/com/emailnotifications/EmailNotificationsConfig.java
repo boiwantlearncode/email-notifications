@@ -28,5 +28,5 @@ public interface EmailNotificationsConfig extends Config
 			description = "Click the link to see more information to resolve your errors",
 			warning = "Click \"No\" to prevent editing of link."
 	)
-	default String moreInfo() { return "https://github.com/boiwantlearncode/email-notifications"; }
+	default String moreInfo() { return "https://github.com/boiwantlearncode/email-notifications#readme"; }
 }
